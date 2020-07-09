@@ -1,0 +1,46 @@
+
+  @font-face {
+    font-family: myTitleFont;
+    src: url(../fonts/Lato-Bold.woff);
+    font-weight: bold;
+    font-family: myDescriptionFont;
+    src: url(../fonts/Lato-Regular.woff);
+    font-weight: normal;
+  }
+
+  .sport__app {
+    background: #F4F6F9;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sport__app__header {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: 30px;
+  }
+
+  .sport__app__description__heading {
+    font-family: myTitleFont;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #333333;
+}
+  .sport__app__main__description {
+    font-family: myDescriptionFont;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.sport__app__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
