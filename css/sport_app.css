@@ -57,24 +57,27 @@
     width: 100%;
     background: #F4F6F9 url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: top;
+    background-position-x: 585px;
+    background-position-y:-150px;
     background-size: contain;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     margin-inline-start: 163px;
   }
   .sport__app__header {
     margin-block-start: 63px;
-    margin-block-end: 133px;
     margin-inline-start: 0;
     margin-inline-end: 0;
   }
   .sport__app__main {
     grid-column: 1 / 2;
-    /* margin-inline-start: -18px; */
     display: flex;
     flex-direction: column;
+  }
+
+  .sport__app__main__description {
+    margin-inline-end: 176px;
   }
   .sport__app__footer {
     width: 100%;
