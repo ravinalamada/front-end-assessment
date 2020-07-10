@@ -12,18 +12,15 @@
 
   .sport__app {
     background: #F4F6F9;
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
   }
-
   .sport__app__header {
     margin-inline-start: auto;
     margin-inline-end: auto;
     margin-block-start: 30px;
-    display: flex;
-    flex-direction: row-reverse;
 }
 
   .sport__app__main__heading {
@@ -34,6 +31,7 @@
     letter-spacing: 0.03em;
     color: #333333;
 }
+
   .sport__app__main__description {
     font-family: myDescriptionFont;
     font-size: 16px;
@@ -45,14 +43,45 @@
 .sport__app__footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-block-start: 50px;
+  margin-block-end: 59px;
+}
+
+.sport__app--logo--goggle {
+  margin-inline-start: 16px;
 }
 
 @media (min-width: 1000px) {
   .sport__app {
-    background-image: url(../img/bg-header.png);
+    width: 100%;
+    background: #F4F6F9 url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline-start: 163px;
   }
+  .sport__app__header {
+    margin-block-start: 63px;
+    margin-block-end: 133px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+  .sport__app__main {
+    grid-column: 1 / 2;
+    /* margin-inline-start: -18px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .sport__app__footer {
+    width: 100%;
+    grid-column: 1 / 2;
+    display: block;
+
+  }
+
 }
 
