@@ -1,0 +1,16 @@
+@font-face {
+  font-style: 30px;
+  font-family: Lato;
+  src: local(lato)
+      url(../fonts/Lato-Bold.woff2)format(woff2),
+      url(../fonts/Lato-Bold.woff)format(woff);
+  font-weight: bold;
+}
+@font-face {
+  font-style: 16px;
+  font-family: Lato;
+  src: local(lato)
+       url(../fonts/Lato-Regular.woff2)format(woff2)
+       url(../fonts/Lato-Regular.woff)format(woff);
+  font-weight: normal;
+}
