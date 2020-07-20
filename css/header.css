@@ -1,0 +1,13 @@
+.sport__app__header {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-block-start: 30px;
+}
+
+@media (min-width: 1000px) {
+  .sport__app__header {
+    margin-block-start: 63px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+}
