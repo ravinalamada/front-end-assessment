@@ -9,7 +9,7 @@
 @media (min-width: 1000px) {
   .sport__app {
     width: 100%;
-    background: #F4F6F9 url(../img/bg_header.png);
+    background: #F4F6F9 url(../img/resized-bg_header.png);
     background-repeat: no-repeat;
     background-position-x: 585px;
     background-position-y:-150px;
