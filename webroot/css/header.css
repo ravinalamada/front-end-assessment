@@ -7,6 +7,7 @@
 @media (min-width: 1000px) {
   .sport__app__header {
     margin-block-start: 63px;
+    margin-block-end: 63px;
     margin-inline-start: 0;
     margin-inline-end: 0;
   }

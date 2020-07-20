@@ -11,12 +11,11 @@
     width: 100%;
     background: #F4F6F9 url(../img/resized-bg_header.png);
     background-repeat: no-repeat;
-    background-position-x: 585px;
+    background-position-x: 700px;
     background-position-y:-150px;
-    background-size: contain;
+    background-size: 800px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     margin-inline-start: 163px;
   }
 }
