@@ -1,4 +1,4 @@
-.sport__app__main__heading {
+.sport_app__main__heading {
   font-family: Lato;
   font-size: 30px;
   line-height: 40px;
@@ -7,7 +7,7 @@
   color: #333333;
 }
 
-.sport__app__main__description {
+.sport_app__main__description {
   font-family: Lato;
   font-size: 16px;
   line-height: 23px;
@@ -16,18 +16,18 @@
 }
 
 @media (min-width: 1000px) {
-  .sport__app__main {
-   max-width: 90%;
+  .sport_app__main {
+    max-width: 90%;
     grid-column: 1 / 2;
     display: flex;
     flex-direction: column;
   }
 
-  .sport__app__main__heading {
+  .sport_app__main__heading {
     text-align: start;
   }
 
-  .sport__app__main__description {
+  .sport_app__main__description {
     margin-inline-end: 176px;
     text-align: start;
   }
