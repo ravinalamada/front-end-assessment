@@ -1,5 +1,5 @@
 @import "./fonts.css";
 @import "./defaults.css";
-@import "./header.css";
-@import "./main.css";
-@import "./footer.css";
+@import "./sports_app_header.css";
+@import "./sports_app_main.css";
+@import "./sport_app_navigation.css";
