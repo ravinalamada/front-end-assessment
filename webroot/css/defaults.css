@@ -8,12 +8,12 @@
 
 @media (min-width: 1000px) {
   .sport__app {
-    width: 100%;
+    max-width: 100%;
     background: #F4F6F9 url(../img/resized-bg_header.png);
     background-repeat: no-repeat;
-    background-position-x: 700px;
-    background-position-y:-150px;
-    background-size: 800px;
+    background-position-x: 135%;
+    background-position-y: 60%;
+    background-size: 70%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-inline-start: 163px;
