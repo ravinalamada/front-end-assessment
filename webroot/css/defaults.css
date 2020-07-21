@@ -11,9 +11,9 @@
     max-width: 100%;
     background: #F4F6F9 url(../img/resized-bg_header.png);
     background-repeat: no-repeat;
-    background-position-x: 135%;
+    background-position-x: 131%;
     background-position-y: 60%;
-    background-size: 70%;
+    background-size: 66%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-inline-start: 163px;
