@@ -13,10 +13,11 @@
 
 @media(min-width: 1000px) {
   .sport_app__list {
-    width: 100%;
-    grid-column: 1 / 2;
-    display: block;
-
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: start;
   }
+
 
 }

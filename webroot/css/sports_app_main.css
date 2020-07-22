@@ -17,18 +17,18 @@
 
 @media (min-width: 1000px) {
   .sport_app__main {
-    max-width: 90%;
-    grid-column: 1 / 2;
+    max-width: 546px;
     display: flex;
     flex-direction: column;
   }
 
   .sport_app__main__heading {
     text-align: start;
+    max-width: 546px;
   }
 
   .sport_app__main__description {
-    margin-inline-end: 176px;
+    max-width: 546px;
     text-align: start;
   }
 }
