@@ -1,12 +1,12 @@
-.sport_app__header {
+.sport_app--logo {
   text-align: center;
   margin-block-start: 30px;
+  margin-block-end: 50px;
 }
 
 @media (min-width: 1000px) {
-  .sport_app__header {
-    text-align: start;
-    /* margin-block-start: 63px;
-    margin-block-end: 63px; */
+  .sport_app--logo {
+    position: absolute;
+    left: 137px;
   }
 }

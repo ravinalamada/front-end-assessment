@@ -1,20 +1,8 @@
-.sport_app {
+body {
   background: #F4F6F9;
-  /* max-width: 1114px; */
   display: flex;
   flex-direction: column;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+  text-align: center;
+  margin: 0;
 }
 
-@media (min-width: 1000px) {
-  .sport_app {
-    max-width: 1114px;
-    background: #F4F6F9 url(../img/resized-bg_header.png);
-    background-repeat: no-repeat;
-    background-position-x: 546px;
-    background-position-y: 62%;
-    background-size: 700px;
-
-  }
-}

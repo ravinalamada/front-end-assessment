@@ -19,5 +19,7 @@
     justify-content: start;
   }
 
-
+  .sport_app__item {
+    margin-inline-start: 0;
+  }
 }
