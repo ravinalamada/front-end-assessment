@@ -84,3 +84,6 @@ body {
     justify-content: start; }
   .sport_app__item {
     margin-inline-start: 0; } }
+
+body {
+  margin: 0; }
