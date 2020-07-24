@@ -4,6 +4,11 @@
   margin-block-end: 50px;
 }
 
+.sport_app__heading {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 1000px) {
   .sport_app--logo {
     position: absolute;
