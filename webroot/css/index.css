@@ -25,7 +25,7 @@ body {
 @media (min-width: 1000px) {
   .sport_app--logo {
     position: absolute;
-    left: 137px; } }
+    left: calc(50% - 557px); } }
 
 .sport_app__main {
   padding-block-start: 183px;
@@ -73,8 +73,7 @@ body {
   margin-block-end: 59px; }
 
 .sport_app__item {
-  list-style: none;
-  margin-inline-start: 16px; }
+  list-style: none; }
 
 @media (min-width: 1000px) {
   .sport_app__list {
@@ -82,8 +81,8 @@ body {
     flex-direction: row;
     padding: 0;
     justify-content: start; }
-  .sport_app__item {
-    margin-inline-start: 0; } }
+  .sport_app__item:first-child {
+    margin-inline-end: 16px; } }
 
 body {
   margin: 0; }

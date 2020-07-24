@@ -1,5 +1,7 @@
+@import "color";
+
 body {
-  background: #F4F6F9;
+  background: $background-color;
   display: flex;
   flex-direction: column;
   text-align: center;
