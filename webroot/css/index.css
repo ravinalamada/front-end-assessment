@@ -25,13 +25,15 @@ body {
 @media (min-width: 1000px) {
   .sport_app--logo {
     position: absolute;
-    left: calc(50% - 557px); } }
+    left: calc(50% - 557px); }
+  .sport_app__heading {
+    margin: 0; } }
 
-.sport_app__main {
+.sport_app__content {
   padding-block-start: 183px;
   padding-block-end: 50px; }
 
-.sport_app__main__heading {
+.sport_app__content__heading {
   font-family: Lato;
   font-size: 30px;
   line-height: 40px;
@@ -39,7 +41,7 @@ body {
   letter-spacing: 0.03em;
   color: #333333; }
 
-.sport_app__main__description {
+.sport_app__content__description {
   font-family: Lato;
   font-size: 16px;
   line-height: 23px;
@@ -47,7 +49,7 @@ body {
   color: #4F4F4F; }
 
 @media (min-width: 1000px) {
-  .sport_app__main {
+  .sport_app__content {
     max-width: 1114px;
     margin-inline-start: auto;
     margin-inline-end: auto;
@@ -55,13 +57,13 @@ body {
     flex-direction: column;
     background: #F4F6F9 url(../img/resized-bg_header.png);
     background-repeat: no-repeat;
-    background-position-x: calc(50vw - 11px);
-    background-position-y: 60%;
-    background-size: 700px; }
-  .sport_app__main__heading {
+    background-position-x: 460px;
+    background-position-y: 160%;
+    background-size: 70%; }
+  .sport_app__content__heading {
     text-align: start;
     max-width: 500px; }
-  .sport_app__main__description {
+  .sport_app__content__description {
     max-width: 500px;
     text-align: start; } }
 
