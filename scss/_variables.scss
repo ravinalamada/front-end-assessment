@@ -1,0 +1,12 @@
+$faux-column-width:1114px;
+$background-color: #F4F6F9;
+$heading2-color: #333333;
+$paragraph-color: #4F4F4F;
+$text-align:center;
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+

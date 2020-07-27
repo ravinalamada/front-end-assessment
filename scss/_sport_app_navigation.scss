@@ -1,13 +1,16 @@
+
+@import "variables";
+
 .sport_app__list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: $text-align;
   margin-block-start: 50px;
   margin-block-end: 59px;
 }
 
 .sport_app__item {
-  list-style: none;
+  @include reset-list;
 }
 
 @media(min-width: 1000px) {
