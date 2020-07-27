@@ -2,7 +2,7 @@ $faux-column-width:1114px;
 $background-color: #F4F6F9;
 $heading2-color: #333333;
 $paragraph-color: #4F4F4F;
-$text-align:center;
+$centered-align:center;
 
 @mixin reset-list {
   margin: 0;
@@ -10,3 +10,8 @@ $text-align:center;
   list-style: none;
 }
 
+@mixin max-width-container($max-width: 800px) {
+  max-width: $faux-column-width;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
