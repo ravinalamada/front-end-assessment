@@ -55,7 +55,7 @@ body {
   color: #4F4F4F; }
 
 @media (min-width: 1000px) {
-  .sport_app {
+  .sport_app__content {
     max-width: 1114px;
     margin-inline-start: auto;
     margin-inline-end: auto;
@@ -75,7 +75,10 @@ body {
   margin-block-start: 50px;
   margin-block-end: 59px; }
 
-.sport_app__item {
+.sport_app__item,
+.sport_app__article__items,
+.sport_app__footer__items--media,
+.sport_app__footer__items--sug {
   margin: 0;
   padding: 0;
   list-style: none; }
