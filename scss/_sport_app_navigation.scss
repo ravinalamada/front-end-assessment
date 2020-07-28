@@ -9,7 +9,10 @@
   margin-block-end: 59px;
 }
 
-.sport_app__item {
+.sport_app__item,
+.sport_app__article__items,
+.sport_app__footer__items--media,
+.sport_app__footer__items--sug {
   @include reset-list;
 }
 

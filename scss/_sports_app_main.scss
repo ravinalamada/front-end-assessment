@@ -23,7 +23,7 @@
 }
 
 @media (min-width: 1000px) {
-  .sport_app {
+  .sport_app__content {
     @include max-width-container;
     display: flex;
     flex-direction: column;
