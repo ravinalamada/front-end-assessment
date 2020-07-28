@@ -23,6 +23,12 @@ body {
   margin-block-end: 50px; }
 
 @media (min-width: 1000px) {
+  .sport_app__header {
+    background: #F4F6F9 url(../img/resized-bg_header.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(50vw - 11px);
+    background-position-y: 160%;
+    background-size: 70%; }
   .sport_app--logo {
     position: absolute;
     left: calc(50% - 557px); }
@@ -54,12 +60,7 @@ body {
     margin-inline-start: auto;
     margin-inline-end: auto;
     display: flex;
-    flex-direction: column;
-    background: #F4F6F9 url(../img/resized-bg_header.png);
-    background-repeat: no-repeat;
-    background-position-x: 460px;
-    background-position-y: 160%;
-    background-size: 70%; }
+    flex-direction: column; }
   .sport_app__content__heading {
     text-align: start;
     max-width: 500px; }

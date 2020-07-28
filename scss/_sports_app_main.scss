@@ -27,11 +27,6 @@
     @include max-width-container;
     display: flex;
     flex-direction: column;
-    background: #F4F6F9 url(../img/resized-bg_header.png);
-    background-repeat: no-repeat;
-    background-position-x: 460px;
-    background-position-y: 160%;
-    background-size: 70%;
   }
 
   .sport_app__content__heading {
