@@ -26,9 +26,10 @@ body {
   .sport_app__header {
     background: #F4F6F9 url(../img/resized-bg_header.png);
     background-repeat: no-repeat;
-    background-position-x: calc(50vw - 11px);
-    background-position-y: 160%;
-    background-size: 70%; }
+    background-position-x: 550px;
+    background-position-y: -171px;
+    background-size: 70%;
+    padding-block-end: 250px; }
   .sport_app--logo {
     position: absolute;
     left: calc(50% - 557px); }
