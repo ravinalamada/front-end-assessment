@@ -5,23 +5,6 @@
   padding-block-end: 50px;
 }
 
-.sport_app__content__heading {
-  font-family: Lato;
-  font-size: 30px;
-  line-height: 40px;
-  text-align: $centered-align;
-  letter-spacing: 0.03em;
-  color: $heading2-color;
-}
-
-.sport_app__content__description {
-  font-family: Lato;
-  font-size: 16px;
-  line-height: 23px;
-  text-align: $centered-align;
-  color: $paragraph-color;
-}
-
 @media (min-width: 1000px) {
   .sport_app__content {
     @include max-width-container;

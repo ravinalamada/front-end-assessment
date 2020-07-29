@@ -1,0 +1,23 @@
+@import "variables";
+
+
+.sport_app__main__link {
+  text-transform: uppercase;
+}
+
+.sport_app__main__link,
+.sport_app__main--desc--link {
+  @include heading-color-blue;
+  text-decoration: $text-decoration;
+}
+
+.sport_app__content__heading,
+.sport_app__heading3 {
+  @include heading-font;
+}
+
+.sport_app__content__description,
+.sport_app__main--desc {
+  @include paragragh-font;
+}
+

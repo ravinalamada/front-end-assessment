@@ -1,9 +1,7 @@
 @import "variables";
 
 
-@media (min-width:1000px) {
-  .sport_app__article {
-    @include max-width-container;
-  }
+.sport_app__article {
+  @include  max-width-container;
 }
 

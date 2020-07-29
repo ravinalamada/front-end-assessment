@@ -39,21 +39,6 @@ body {
   padding-block-start: 183px;
   padding-block-end: 50px; }
 
-.sport_app__content__heading {
-  font-family: Lato;
-  font-size: 30px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #333333; }
-
-.sport_app__content__description {
-  font-family: Lato;
-  font-size: 16px;
-  line-height: 23px;
-  text-align: center;
-  color: #4F4F4F; }
-
 @media (min-width: 1000px) {
   .sport_app__content {
     max-width: 1114px;
@@ -92,5 +77,50 @@ body {
   .sport_app__item:first-child {
     margin-inline-end: 16px; } }
 
-body {
-  margin: 0; }
+.sport_app__article {
+  max-width: 1114px;
+  margin-inline-start: auto;
+  margin-inline-end: auto; }
+
+.sport_app__main__header {
+  background-color: #FFFFFF;
+  background-image: url(../img/bg_friendly_user_interface.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 100px;
+  background-size: 600px;
+  max-width: 100%;
+  height: 600px;
+  margin-block-end: 32px; }
+
+.sport_app__main__link {
+  text-transform: uppercase; }
+
+.sport_app__main__link,
+.sport_app__main--desc--link {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #00ADEE;
+  text-decoration: none; }
+
+.sport_app__content__heading,
+.sport_app__heading3 {
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #333333; }
+
+.sport_app__content__description,
+.sport_app__main--desc {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #4F4F4F; }
+
+.sport_app__footer {
+  background-color: #00ADEE; }

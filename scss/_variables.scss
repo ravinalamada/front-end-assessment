@@ -1,8 +1,10 @@
 $faux-column-width:1114px;
 $background-color: #F4F6F9;
+$color-blue: #00ADEE;
 $heading2-color: #333333;
 $paragraph-color: #4F4F4F;
 $centered-align:center;
+$text-decoration:none;
 
 @mixin reset-list {
   margin: 0;
@@ -15,5 +17,31 @@ $centered-align:center;
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
+
+@mixin heading-color-blue {
+font-family: Lato;
+font-size: 16px;
+line-height: 21px;
+text-align: $centered-align;
+color: $color-blue;
+
+}
+@mixin heading-font {
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: $centered-align;
+  letter-spacing: 0.03em;
+  color: $heading2-color;
+}
+
+@mixin paragragh-font {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: $centered-align;
+  color: $paragraph-color;
+}
+
 
 
