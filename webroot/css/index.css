@@ -66,7 +66,27 @@ body {
 .sport_app__footer__items--sug {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  text-decoration: none; }
+
+.sport_app__article__list,
+.sport_app__footer__list--sug,
+.sport_app__footer__list--media {
+  padding: 0; }
+
+.sport_app__article__items {
+  padding-block-end: 50px; }
+
+.sport_app__article__items__svg {
+  padding-block-end: 0; }
+
+.sport_app__footer__items--media {
+  display: inline-block;
+  margin-inline-end: 16px; }
+
+.sport_app__footer__list--sug {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
 
 @media (min-width: 1000px) {
   .sport_app__list {
@@ -82,16 +102,34 @@ body {
   margin-inline-start: auto;
   margin-inline-end: auto; }
 
+.sport_app__article--icons::after {
+  content: " ";
+  display: flex;
+  width: 100%;
+  height: 409px;
+  background-image: url(../img/logo_sports_tv.svg), url(../img/logo_sports_channel.svg), url(../img/logo_nbc_sports.svg), url(../img/logo_designer_technology.svg), url(../img/logo_designer_news.svg), url(../img/logo_sky_sports.svg);
+  background-repeat: no-repeat;
+  background-position-x: left, right, left, center, right, center;
+  background-position-y: top, top, 35%, 35%, 35%, 70%; }
+
+.sport_app__article--featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
 .sport_app__main__header {
   background-color: #FFFFFF;
   background-image: url(../img/bg_friendly_user_interface.png);
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 100px;
-  background-size: 600px;
+  background-position-x: 50%;
+  background-position-y: calc(100% + 652px);
+  background-size: 2000px;
   max-width: 100%;
-  height: 600px;
-  margin-block-end: 32px; }
+  padding-block-end: 652px; }
+
+.sport_app__main--desc--anch {
+  padding-block-start: calc(44px - 19px);
+  padding-block-end: 42.61px; }
 
 .sport_app__main__link {
   text-transform: uppercase; }
@@ -112,7 +150,12 @@ body {
   line-height: 40px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #333333; }
+  color: #333333;
+  margin-block-start: 57px;
+  margin-block-end: 43px; }
+
+.sport_app__heading3--featured {
+  padding-inline-start: 40px; }
 
 .sport_app__content__description,
 .sport_app__main--desc {
@@ -123,4 +166,13 @@ body {
   color: #4F4F4F; }
 
 .sport_app__footer {
-  background-color: #00ADEE; }
+  background-color: #00ADEE;
+  text-align: start;
+  padding-inline-start: 0; }
+
+.sport_app__footer__items--sug--link {
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF; }
