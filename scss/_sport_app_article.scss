@@ -5,3 +5,36 @@
   @include  max-width-container;
 }
 
+.sport_app__article--icons::after {
+  content: " ";
+  display: flex;
+  width: 100%;
+  height: 409px;
+  background-image: url(../img/logo_sports_tv.svg),
+                    url(../img/logo_sports_channel.svg),
+                    url(../img/logo_nbc_sports.svg),
+                    url(../img/logo_designer_technology.svg),
+                    url(../img/logo_designer_news.svg),
+                    url(../img/logo_sky_sports.svg);
+  background-repeat: no-repeat;
+  background-position-x: left,
+                         right,
+                         left,
+                         center,
+                         right,
+                         center;
+  background-position-y: top,
+                          top,
+                          35%,
+                          35%,
+                          35%,
+                          70%;
+}
+
+.sport_app__article--featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
