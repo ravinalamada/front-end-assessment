@@ -14,6 +14,12 @@
 .sport_app__content__heading,
 .sport_app__heading3 {
   @include heading-font;
+  margin-block-start: 57px;
+  margin-block-end: 43px;
+}
+
+.sport_app__heading3--featured {
+  padding-inline-start: 40px;
 }
 
 .sport_app__content__description,
