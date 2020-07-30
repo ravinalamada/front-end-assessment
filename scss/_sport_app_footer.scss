@@ -2,4 +2,14 @@
 
 .sport_app__footer {
   background-color: $color-blue;
+  text-align: start;
+  padding-inline-start: 0;
+}
+
+.sport_app__footer__items--sug--link {
+  text-decoration: $text-decoration;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 21px;
+  color: $color-white;
 }
