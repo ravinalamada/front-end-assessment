@@ -14,6 +14,33 @@
 .sport_app__footer__items--media,
 .sport_app__footer__items--sug {
   @include reset-list;
+  text-decoration: $text-decoration;
+}
+
+.sport_app__article__list,
+.sport_app__footer__list--sug,
+.sport_app__footer__list--media {
+  padding: 0;
+}
+.sport_app__article__items {
+  padding-block-end: 50px;
+}
+
+.sport_app__article__items__svg {
+  padding-block-end: 0;
+}
+
+.sport_app__footer__items--media {
+  display: inline-block;
+  margin-inline-end: 16px;
+}
+// .sport_app__footer__list--media {
+
+// }
+
+.sport_app__footer__list--sug {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 @media(min-width: 1000px) {
