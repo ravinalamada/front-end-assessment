@@ -23,7 +23,32 @@
 }
 
 .sport_app__content__description,
-.sport_app__main--desc {
+.sport_app__main--desc,
+.sport_app__main__desc--featured {
   @include paragragh-font;
 }
 
+
+
+@media (min-width: 1000px){
+  .sport_app__content__heading,
+  .sport_app__content__description {
+    text-align: start;
+    width: 500px;
+  }
+
+  .sport_app__main__desc--featured::before {
+    content: ' • ';
+    color:  $background-color;
+  }
+
+  .sport_app__main__desc--featured {
+    color:  $background-color;
+    text-align: left;
+  }
+
+  .sport_app__heading3--featured {
+    color:  $background-color;
+  }
+
+}
