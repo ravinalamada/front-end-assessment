@@ -12,14 +12,16 @@
 .sport_app__item,
 .sport_app__article__items,
 .sport_app__footer__items--media,
-.sport_app__footer__items--sug {
+.sport_app__footer__items--sug,
+.sport_app__items--icons {
   @include reset-list;
   text-decoration: $text-decoration;
 }
 
 .sport_app__article__list,
 .sport_app__footer__list--sug,
-.sport_app__footer__list--media {
+.sport_app__footer__list--media,
+.sport_app__list--icon {
   padding: 0;
 }
 .sport_app__article__items {
@@ -34,13 +36,71 @@
   display: inline-block;
   margin-inline-end: 16px;
 }
-// .sport_app__footer__list--media {
 
-// }
+.sport_app__link--icons {
+  text-decoration: none;
+}
 
 .sport_app__footer__list--sug {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.sport_app__link--icons {
+  display: block;
+  text-indent: -9999px;
+  padding: 18px;
+}
+
+.sport_app__items--icons {
+  width: 230px;
+}
+
+.sport_app__list--icon--sky {
+  display: flex;
+  justify-content: center;
+}
+
+.sport_app__items--icons--tv {
+  background-image: url(../img/logo_sports_tv.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.sport_app__items--icons--sport {
+  background-image: url(../img/logo_sports_channel.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.sport_app__items--icons--nbc {
+  background-image: url(../img/logo_nbc_sports.svg);
+  background-repeat: no-repeat;
+  background-position: left top 35%;
+}
+
+.sport_app__items--icons--designer {
+  background-image: url(../img/logo_designer_technology.svg);
+  background-repeat: no-repeat;
+  background-position: center top 35%;
+}
+
+.sport_app__items--icons--dn {
+  background-image: url(../img/logo_designer_news.svg);
+  background-repeat: no-repeat;
+  background-position: right top 35%;
+}
+
+.sport_app__items-icons--sky {
+  background-image: url(../img/logo_sky_sports.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom 80%;
+}
+
+.sport_app__list--icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @media(min-width: 1000px) {
@@ -54,4 +114,13 @@
   .sport_app__item:first-child {
     margin-inline-end: 16px;
   }
+
+  .sport_app__footer__list--media {
+    order: 3;
+  }
+
+  .sport_app__footer__list--sug {
+    order: 2;
+  }
 }
+

@@ -13,3 +13,18 @@
   line-height: 21px;
   color: $color-white;
 }
+
+@media (min-width: 1000px) {
+  .sport_app__footer {
+    text-align: center;
+  }
+
+  .sport_app__footer--container {
+    @include max-width-container;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+}
