@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-style: 30px;
   font-family: Lato;
@@ -45,13 +46,7 @@ body {
     margin-inline-start: auto;
     margin-inline-end: auto;
     display: flex;
-    flex-direction: column; }
-  .sport_app__content__heading {
-    text-align: start;
-    max-width: 500px; }
-  .sport_app__content__description {
-    max-width: 500px;
-    text-align: start; } }
+    flex-direction: column; } }
 
 .sport_app__list {
   display: flex;
@@ -98,9 +93,6 @@ body {
   text-indent: -9999px;
   padding: 18px; }
 
-.sport_app__items--icons {
-  width: 230px; }
-
 .sport_app__list--icon--sky {
   display: flex;
   justify-content: center; }
@@ -108,32 +100,38 @@ body {
 .sport_app__items--icons--tv {
   background-image: url(../img/logo_sports_tv.svg);
   background-repeat: no-repeat;
-  background-position: left top; }
+  background-position: left top;
+  width: 150px; }
 
 .sport_app__items--icons--sport {
   background-image: url(../img/logo_sports_channel.svg);
   background-repeat: no-repeat;
-  background-position: right top; }
+  background-position: right top;
+  width: 150px; }
 
 .sport_app__items--icons--nbc {
   background-image: url(../img/logo_nbc_sports.svg);
   background-repeat: no-repeat;
-  background-position: left top 35%; }
+  background-position: left top 35%;
+  width: 180px; }
 
 .sport_app__items--icons--designer {
   background-image: url(../img/logo_designer_technology.svg);
   background-repeat: no-repeat;
-  background-position: center top 35%; }
+  background-position: center top 35%;
+  width: 200px; }
 
 .sport_app__items--icons--dn {
   background-image: url(../img/logo_designer_news.svg);
   background-repeat: no-repeat;
-  background-position: right top 35%; }
+  background-position: right top 35%;
+  width: 150px; }
 
 .sport_app__items-icons--sky {
   background-image: url(../img/logo_sky_sports.svg);
   background-repeat: no-repeat;
-  background-position: center bottom 80%; }
+  background-position: center bottom 80%;
+  width: 200px; }
 
 .sport_app__list--icon {
   display: flex;
@@ -141,6 +139,9 @@ body {
   justify-content: space-between; }
 
 @media (min-width: 1000px) {
+  .sport_app__list__nav--icon {
+    display: flex;
+    justify-content: space-between; }
   .sport_app__list {
     display: flex;
     flex-direction: row;
@@ -163,6 +164,22 @@ body {
   flex-direction: column;
   justify-content: space-between; }
 
+@media (min-width: 1000px) {
+  .sport_app__article--featured {
+    background-color: #00ADEE; }
+  ul > li > svg path {
+    fill: #F4F6F9;
+    text-align: left; }
+  .sport_app__article__list--featured {
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 90px;
+    text-align: start; } }
+
 .sport_app__main__header {
   background-color: #FFFFFF;
   background-image: url(../img/bg_friendly_user_interface.png);
@@ -176,6 +193,21 @@ body {
 .sport_app__main--desc--anch {
   padding-block-start: calc(44px - 19px);
   padding-block-end: 42.61px; }
+
+@media (min-width: 1000px) {
+  .sport_app__main__header {
+    background-image: url(../img/bg_friendly_user_interface.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(50% + 240px);
+    background-position-y: 50%;
+    background-size: 2000px;
+    padding-block-end: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row; }
+  .sport_app__article--desc {
+    max-width: 557px;
+    order: 1; } }
 
 .sport_app__main__link {
   text-transform: uppercase; }
@@ -204,12 +236,27 @@ body {
   padding-inline-start: 40px; }
 
 .sport_app__content__description,
-.sport_app__main--desc {
+.sport_app__main--desc,
+.sport_app__main__desc--featured {
   font-family: Lato;
   font-size: 16px;
   line-height: 23px;
   text-align: center;
   color: #4F4F4F; }
+
+@media (min-width: 1000px) {
+  .sport_app__content__heading,
+  .sport_app__content__description {
+    text-align: start;
+    width: 500px; }
+  .sport_app__main__desc--featured::before {
+    content: ' • ';
+    color: #F4F6F9; }
+  .sport_app__main__desc--featured {
+    color: #F4F6F9;
+    text-align: left; }
+  .sport_app__heading3--featured {
+    color: #F4F6F9; } }
 
 .sport_app__footer {
   background-color: #00ADEE;
