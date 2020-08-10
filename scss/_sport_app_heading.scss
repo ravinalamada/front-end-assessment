@@ -28,13 +28,23 @@
   @include paragragh-font;
 }
 
+@media (min-width: 1000px) {
+  .sport_app__main__heading2 {
+    padding-block-start: 270px;
+  }
+
+  .sport_app__main--desc {
+    max-width: 480px;
+    text-align: left;
+  }
+}
 
 
 @media (min-width: 1000px){
   .sport_app__content__heading,
   .sport_app__content__description {
     text-align: start;
-    width: 500px;
+    width: 480px;
   }
 
   .sport_app__main__desc--featured::before {

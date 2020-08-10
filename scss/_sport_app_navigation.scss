@@ -52,10 +52,6 @@
   padding: 18px;
 }
 
-// .sport_app__items--icons {
-//   width: 230px;
-// }
-
 .sport_app__list--icon--sky {
   display: flex;
   justify-content: center;
@@ -65,7 +61,7 @@
   background-image: url(../img/logo_sports_tv.svg);
   background-repeat: no-repeat;
   background-position: left top;
-  width: 150px;
+  // width: 150px;
 }
 
 .sport_app__items--icons--sport {
@@ -135,8 +131,3 @@
   }
 }
 
-// @media(min-width: 1000px) {
-//   .sport_app__article__items {
-//     list-style: outside;
-//   }
-// }

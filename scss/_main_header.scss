@@ -15,7 +15,6 @@
 }
 
 @media (min-width: 1000px) {
-
   .sport_app__main__header {
     background-image: url(../img/bg_friendly_user_interface.png);
     background-repeat: no-repeat;
@@ -24,13 +23,10 @@
     background-size: 2000px;
     padding-block-end: 0;
     max-width: 100%;
-    display: flex;
-    flex-direction: row;
   }
 
   .sport_app__article--desc {
-    max-width: 557px;
-    order: 1;
+    padding-block-end: 171px;
   }
 
 }

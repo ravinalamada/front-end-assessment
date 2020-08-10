@@ -1,0 +1,45 @@
+@import "variables/colors";
+
+$faux-column-width:1114px;
+$centered-align:center;
+$text-decoration:none;
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin max-width-container($max-width: 800px) {
+  max-width: $faux-column-width;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+@mixin heading-color-blue {
+font-family: Lato;
+font-size: 16px;
+line-height: 21px;
+text-align: $centered-align;
+color: $color-blue;
+}
+
+@mixin heading-font {
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: $centered-align;
+  letter-spacing: 0.03em;
+  color: $heading2-color;
+}
+
+@mixin paragragh-font {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: $centered-align;
+  color: $paragraph-color;
+}
+
+
+
