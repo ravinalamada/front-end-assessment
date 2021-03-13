@@ -1,15 +1,16 @@
 @charset "UTF-8";
 @font-face {
-  font-style: 30px;
+  font-size: 30px;
   font-family: Lato;
   src: local(lato) url(../fonts/Lato-Bold.woff2) format(woff2), url(../fonts/Lato-Bold.woff) format(woff);
   font-weight: bold; }
 
 @font-face {
-  font-style: 16px;
+  font-size: 16px;
+  font-style: normal;
   font-family: Lato;
   src: local(lato) url(../fonts/Lato-Regular.woff2) format(woff2) url(../fonts/Lato-Regular.woff) format(woff);
-  font-weight: normal; }
+  font-weight: bold; }
 
 body {
   background: #F4F6F9;
@@ -297,6 +298,36 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF; }
+
+.sport_app__footer__items--media {
+  width: 20px; }
+
+.sport_app__footer__links--media {
+  display: block;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.sport_app__footer__links--media--facebook {
+  background-image: url("../img/icon_facebook.svg"); }
+
+.sport_app__footer__links--media--facebook:hover,
+.sport_app__footer__links--media--facebook:focus {
+  background-image: url("../img/circle-facebook.svg"); }
+
+.sport_app__footer__links--media--instagram {
+  background-image: url("../img/icon_instagram.svg"); }
+
+.sport_app__footer__links--media--instagram:hover,
+.sport_app__footer__links--media--instagram:focus {
+  background-image: url("../img/circle-instagram.svg"); }
+
+.sport_app__footer__links--media--twitter {
+  background-image: url("../img/icon_twitter.svg"); }
+
+.sport_app__footer__links--media--twitter:hover,
+.sport_app__footer__links--media--twitter:focus {
+  background-image: url("../img/twitter_circle.svg"); }
 
 @media (min-width: 1000px) {
   .sport_app__footer {
