@@ -1,16 +1,15 @@
 @charset "UTF-8";
 @font-face {
-  font-size: 30px;
-  font-family: Lato;
-  src: local(lato) url(../fonts/Lato-Bold.woff2) format(woff2), url(../fonts/Lato-Bold.woff) format(woff);
-  font-weight: bold; }
+  font-family: "Lato";
+  font-weight: 700;
+  font-style: noraml;
+  src: local("Lato"), local("Lato"), url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"); }
 
 @font-face {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Lato;
-  src: local(lato) url(../fonts/Lato-Regular.woff2) format(woff2) url(../fonts/Lato-Regular.woff) format(woff);
-  font-weight: bold; }
+  font-family: "Lato-regular";
+  font-weight: 400;
+  font-style: noraml;
+  src: local("Lato-regular"), local("Lato-regular"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"); }
 
 body {
   background: #F4F6F9;
@@ -81,19 +80,15 @@ body {
   display: inline-block;
   margin-inline-end: 16px; }
 
-.sport_app__link--icons {
-  display: block;
-  text-indent: -9999px;
-  min-height: 58px;
-  margin: 0;
-  text-decoration: none; }
-
 .sport_app__list--icon {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap; }
+
+.sport_app__list__nav--icon {
+  margin-bottom: 70px; }
 
 .sport_app__items--icons--tv {
   flex-basis: 50%; }
@@ -112,6 +107,13 @@ body {
 
 .sport_app__items-icons--sky {
   flex-basis: 100%; }
+
+.sport_app__link--icons {
+  display: block;
+  text-indent: -9999px;
+  min-height: 58px;
+  margin: 0;
+  text-decoration: none; }
 
 .sport_app__link--icons--tv {
   background-image: url(../img/logo_sports_tv.svg);
@@ -200,8 +202,8 @@ body {
     margin-inline-start: auto;
     margin-inline-end: auto;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 90px;
     text-align: start; } }
 
@@ -236,7 +238,7 @@ body {
 
 .sport_app__main__link,
 .sport_app__main--desc--link {
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 21px;
   text-align: center;
@@ -245,7 +247,7 @@ body {
 
 .sport_app__content__heading,
 .sport_app__heading3 {
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   line-height: 40px;
   text-align: center;
@@ -254,13 +256,16 @@ body {
   margin-block-start: 57px;
   margin-block-end: 43px; }
 
+.sport_app__heading3--icons {
+  margin-top: 60px; }
+
 .sport_app__heading3--featured {
   padding-inline-start: 40px; }
 
 .sport_app__content__description,
 .sport_app__main--desc,
 .sport_app__main__desc--featured {
-  font-family: Lato;
+  font-family: 'Lato-regular', sans-serif;
   font-size: 16px;
   line-height: 23px;
   text-align: center;
@@ -292,12 +297,18 @@ body {
   text-align: start;
   padding-inline-start: 0; }
 
-.sport_app__footer__items--sug--link {
+.sport_app__footer__links--sug {
   text-decoration: none;
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 21px;
-  color: #FFFFFF; }
+  text-align: center;
+  color: #00ADEE;
+  color: #FFFFFF;
+  opacity: 0.9; }
+
+.sport_app__footer__links--sug:hover {
+  opacity: 1; }
 
 .sport_app__footer__items--media {
   width: 20px; }
@@ -338,4 +349,10 @@ body {
     margin-inline-end: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; } }
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px; }
+  .sport_app__footer__items--sug {
+    margin-right: 20px; }
+  .sport_app__footer__links--sug {
+    font-size: 18px; } }
